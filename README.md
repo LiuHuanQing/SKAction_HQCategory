@@ -1,1 +1,1 @@
-# SKAction_HQCategory
+# SKAction-HQCategory
