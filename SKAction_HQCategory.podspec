@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SKAction_HQCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "SpriteKit action category"
   s.description  = <<-DESC
   SpriteKit action category.

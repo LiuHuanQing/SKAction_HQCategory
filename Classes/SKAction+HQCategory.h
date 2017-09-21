@@ -17,4 +17,9 @@
  */
 + (SKAction *)shake:(CGFloat)duration strength:(CGFloat)strength;
 
+/**
+ * 延迟移除
+ * duration:延迟时间
+ */
++ (SKAction *)removeWithDuration:(CGFloat)duration;
 @end
