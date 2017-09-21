@@ -26,4 +26,12 @@
     
     return [SKAction sequence:actionsArray];
 }
+
++ (SKAction *)removeWithDuration:(CGFloat)duration
+{
+    return [SKAction sequence:@[[SKAction waitForDuration:duration],[SKAction removeFromParent]]];
+}
+
+
+
 @end
